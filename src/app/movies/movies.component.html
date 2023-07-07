@@ -1,0 +1,17 @@
+<p>movies works!</p>
+<div class="main  " style="display: flex;flex-wrap: wrap; justify-content: center;">
+  <div
+  class="moviescard bg-dark m-3 p-3"
+  *ngFor="let k of movies"
+  style="height: 300px; width: 200px;display: flex; flex-direction: column; align-items: center;justify-content: space-evenly;"
+>
+  <div class="img">
+    <img style="height: 200px;
+    width: 150px;" src="{{ k.imageUrl }}" alt="" />
+  </div>
+  <div class="name">
+    <h4 class="text-warning">{{ k.title }}</h4>
+  </div>
+</div>
+</div>
+

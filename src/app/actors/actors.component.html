@@ -1,0 +1,15 @@
+<p>actors works!</p>
+<div class="main  " style="display: flex;flex-wrap: wrap; justify-content: center;">
+  <div
+  class="actorscard bg-dark m-3 p-3"
+  *ngFor="let k of actorlist"
+  style="height: 100px; width: 300px;display: flex; flex-direction: column; align-items: center;justify-content: space-evenly;"
+>
+  <div class="name">
+    <h5 class="text-primary">{{ k. name}}</h5>
+  </div>
+  <div class="movietitle">
+    <h6 class="text-warning">{{ k. movieTitle}}</h6>
+  </div>
+</div>
+</div>

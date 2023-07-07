@@ -1,0 +1,15 @@
+<p>moviedeatails works!</p>
+
+<div class="main bg-dark text-secondary m-3 p-3"  style="height: 400px;width: 300px;display: flex;flex-direction: column;justify-content: space-evenly;">
+  <h4 >{{movie?.title}}</h4>
+
+  <img style="height: 150px;width: 150px;"
+  [src]="movie?.imageUrl" 
+  alt=""
+  >
+
+<div>
+Released: {{movie?.year}}<br>
+Directed By: {{movie?.director}}
+</div>
+</div>
